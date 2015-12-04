@@ -6,6 +6,7 @@ import (
 )
 
 var _ = API("winecellar", func() { // The API function defines an API given its name.
+	Title("goa: Untangling Microservices example")
 	Description("The winecellar service API")
 	BasePath("/cellar") // Base path or prefix to all requests.
 	// Can be overridden in action definitions using an
